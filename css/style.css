@@ -1,0 +1,145 @@
+html {
+    box-sizing: border-box;
+    font-size: 65%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #e5e5e5;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.contenedor {
+    max-width: 95%;
+    width: 105rem;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.8rem;
+}
+
+h3 {
+    font-size: 3.6rem;
+}
+
+h4 {
+    font-size: 3.4rem;
+}
+
+h5 {
+    font-size: 3.2rem;
+}
+
+h6 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+
+/*<<<<<<<<<<<<>>>>>>>>>>>*/
+
+.grid__card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: 1rem;
+}
+
+.cards {
+    width: 20rem;
+    margin: 0 auto;
+    transition: transform 0.6s ease-in-out;
+}
+
+.card {
+    padding: 0.5rem;
+    background-color: #ffffff;
+    -webkit-box-shadow: 13px 19px 29px -13px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 13px 19px 29px -13px rgba(0, 0, 0, 0.75);
+    box-shadow: 13px 19px 29px -13px rgba(0, 0, 0, 0.75);
+}
+
+.card__borde {
+    background-color: #ffffff;
+}
+
+.card__img {
+    background-color: #e5e5e5;
+    height: 15rem;
+    position: relative;
+}
+
+.card__titulo {
+    margin: 0;
+}
+
+.card__texto {
+    margin: 0;
+}
+
+.fa-star {
+    font-size: 2rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.fa-heart {
+    font-size: 2.5rem;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+.info {
+    text-align: end;
+    padding: 1rem 0 1rem 0;
+}
+
+.info p {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.info a {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn {
+    margin-top: 1.3rem;
+    padding: 0.5rem 1rem;
+    border-radius: 3rem;
+}
+
+.btn__info {
+    border: 2px solid blue;
+    color: #ffffff;
+    background-color: blue;
+    transition: background-color 0.3s ease-in-out;
+}
+
+@media (min-width: 768px) {
+    .btn__info:hover {
+        color: #000000;
+        background-color: transparent;
+    }
+}
